@@ -7,7 +7,13 @@ class Chatbox {
         }
 
         this.state = false;
-        this.messages = [];
+
+        this.messages = [{ name: "Sam", message: "Merhabalar benim adım Cano. Hastanem Yanımda uygulamasının yapay zekaya sahip botuyum." },
+                        { name: "Sam", message: "Bana soru sormak ister misiniz? 😊" }];
+        //this.messages = [];
+        //this.updateChatText(chatbox);
+        //[{ name:'name1', id:'id1' }, { name:'name2', id:'id2' }, { name:'name3', id:'id3'}];
+
     }
 
     display() {
@@ -23,9 +29,18 @@ class Chatbox {
                 this.onSendButton(chatBox)
             }
         })
+
+
+        //let text1 = "hello"
+        //let msg1 = { name: "Sam", message: text1 }
+        //this.messages.push(msg1);
+        //this.updateChatText(chatbox);
     }
 
     toggleState(chatbox) {
+
+        this.updateChatText(chatbox);
+
         this.state = !this.state;
 
         // show or hides the box
@@ -46,7 +61,7 @@ class Chatbox {
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
 
-        fetch('http://127.0.0.1:5000/predict', {
+        fetch('http://localhost:5000/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
@@ -89,3 +104,4 @@ class Chatbox {
 
 const chatbox = new Chatbox();
 chatbox.display();
+chatbot.updateChatText();

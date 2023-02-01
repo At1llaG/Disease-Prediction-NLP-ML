@@ -16,7 +16,7 @@ all_words = []
 tags = []
 xy = []
 # loop through each sentence in our intents patterns
-for intent in intents['progronis']:
+for intent in intents['prognosis']:
     tag = intent['tag']
     # add to tag list
     tags.append(tag)

@@ -56,7 +56,7 @@ while True:
     if prob.item() > 0.45:
         print("h4")
         print(tag)
-        for prog in intents['progronis']:
+        for prog in intents['prognosis']:
             #print("h5")
             #print(prog["tag"])
             if tag == prog["tag"]:

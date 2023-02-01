@@ -5,15 +5,15 @@
 import json
 
 
-with open('Data_JSON/intents.json', encoding='utf-8') as f:
-    intents = json.load(f)
+with open('Data_JSON/prognosis.json', encoding='utf-8') as f:
+    intent = json.load(f)
 
 all_words = []
 tags = []
 xy = []
 # loop through each sentence in our intents patterns
-for intent in intents['intents']:
-    tag = intent['tag']
+for inte in intent['prognosis']:
+    tag = inte['tag']
     # add to tag list
     tags.append(tag)
 

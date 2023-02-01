@@ -24,13 +24,8 @@
          "ses ver",
          "napıyon",
          "hey orda mısın"
-
         ],
-        "responses": [
-          "Merhaba, size nasıl yardımcı olabilirim",
-          "Merhaba, bana soru sorabilirsiniz."
-
-        ],
+        "responses": "Merhabalar 😊, bana aklınıza takılan soruları buradan sorabilirsiniz. Yapay zekamı kullanarak sizin sorularınızı cevaplamaya çalışacağım.",
         "id": 1
       },
       {
@@ -48,20 +43,15 @@
           "good bye",
           "hadi ben kaçtım",
           "byess"
-          
-
         ],
-        "responses": [
-          "görüşürüz, geldiğiniz için teşekkürler",
-          "iyi günler dileriz",
-          "umrarım yardımcı olmuşumdur tekrar görüşmek üzere."
-        ],
+        "responses": "Görüşmek üzere 👋, umarım yardımcı olabilmişimdir.",
         "id": 2
       },
       {
         "tag": "teşekkür",
-        "patterns": ["teşekkürler", "teşekkür ederim","sağol","çok sağol", "çok teşekkürler!","yardımın için sağol","yardımınız için twşkkürler","bravo","eyv","eyvallah"],
-        "responses": ["yardımcı olduğuma sevindim", "her zaman!", "benim için keyifti","rica ederim"]
+        "patterns": ["teşekkürler", "teşekkür ederim","sağol","çok sağol", "çok teşekkürler!","yardımın için sağol","yardımınız için twşkkürler","bravo","eyv","eyvallah","güzel","aferin","helal"],
+        "responses": "Yardımcı olabildiğime sevindim. Benim için bir keyifti.",
+        "id": 3
       },
       {
         "tag": "bot_tanıma",
@@ -90,22 +80,22 @@
           "seni niye yaptılar"
 
         ],
-        "responses": [
-          "benim adım ugi 1 yaşıdayım uygulamayı tanıtma sizi doğru branşa yönlendirmek için burdayım"
-        ],
-        "id": 3
+        "responses": "Benim adım Cano, daha 1 yaşındayım. Size uygulamayı tanıtma, sorularınızı yanıtlama ve sizi doğru branşa yönlendirmek için burdayım.",
+        "id": 4
       },
       {
         "tag": "hakkımızda",
         "patterns": [
           "Hastanem yanımda neden oluşturulmuştur?",
           "Şirketin amacı nedir?",
-          "uygulamanın amacı nedir?"
+          "uygulamanın amacı nedir?",
+          "şirket",
+          "şirket hakkında",
+          "şirket bilgisi",
+          "şirket bilgi"
         ],
-        "responses": [
-          "her insanın sağlık hizmetini,belli zaman ve mekana bağlı olmadan kaliteli,kolay hızlı ve Güvenilir bir şekilde alabilmesini sağlamak için kurulmuştur."
-        ],
-        "id": 4
+        "responses": "Hastanem Yanımda her insanın sağlık hizmetini, belli zaman ve mekana bağlı olmadan kaliteli, kolay hızlı ve güvenilir bir şekilde alabilmesini sağlamak için kurulmuştur.",
+        "id": 5
       },
       {
         "tag": "branş_yönlendirme",
@@ -130,10 +120,8 @@
           "müsait olan bir doktor var mı",
           "benimle kim ilgilenebilir"
         ],
-        "responses": [
-          "Vermiş olduğunuz belirtiler doğrultusunda sizi en doğru tıbbi birime yönlendireceğiz."
-        ],
-        "id": 5
+        "responses": "Vermiş olduğunuz belirtiler doğrultusunda sizi en doğru tıbbi birime yönlendireceğim. Lütfen hastalık belirtilerinizi birer birer yazınız.",
+        "id": 6
       },
       {
         "tag": "uygulama_işleyiş",
@@ -149,18 +137,16 @@
           "uygulama nasıl çalışıyor",
           "yardım lazım",
           "tam anlamadım",
-          "hastayım ne yapıcam"   
-          
+          "hastayım ne yapıcam"
         ],
-        "responses": [
-          "Uygulamaya üye olduktan sonra istediğiniz uzmanlık alanında dilediğiniz doktoru seçip ödeme yaptıktan sonra randevunuzu oluşturabilirsiniz."
-        ],
-        "id": 6
+        "responses": "Uygulamaya üye olduktan sonra istediğiniz uzmanlık alanında dilediğiniz doktoru seçip ödeme yaptıktan sonra randevunuzu oluşturabilirsiniz.",
+        "id": 7
       },      {
         "tag": "şikayet",
         "patterns": [
-          "şikayetimi nereye gönderebilirim?",
-          "önerilemi nereye gönderebilirim?",
+          "şikayetimi nereye gönderebilirim",
+          "nereye şikayet edebilirim",
+          "önerilemi nereye gönderebilirim",
           "şikayetim var",
           "önerim var",
           "şikayet",
@@ -174,30 +160,24 @@
           "sorun var",
           "sorunum var",
           "çalışmadı",
-          "olmadı"
-
+          "olmadı",
+          "yapamadın"
         ],
-        "responses": [
-          "WatsApp canlı destek hattımızdan veya sosyal medya hesaplarınızdan şikayet ve önerilerinizi paylaşabilirsiniz. "
-        ],
-        "id": 7
+        "responses": "Yardımcı olamadıysam kusuruma bakma 😞. Ben daha yeni yaratıldım ve kendimi geliştirmeye çalışıyorum. Kanlı canlı bir temsilcimize 0550 000 0000 numarasından ulaşabilirsin.",
+        "id": 8
       },
       {
         "tag": "öneri",
         "patterns": [
           "öneride bulunmak istiyorum",
           "öneri",
-          "bir şey dicem",
           "tavsiyede bulunmak istiyorum",
           "daha iyi olabilir",
           "geliştirilebilir",
-          "bir şey söylemek istiyorum",
           "yetkili birisiyle görüşmek istiyorum"
         ],
-        "responses": [
-          "önerilerinizi email adresimize gönderin"
-        ],
-        "id": 8
+        "responses": "WatsApp canlı destek hattımızdan veya sosyal medya hesaplarınızdan şikayet ve önerilerinizi paylaşabilirsiniz.",
+        "id": 9
       },
       {
         "tag": "uygulama_bilgi",
@@ -218,12 +198,9 @@
           "hastanem yanımda ne",
           "ne yapmak istiyosun",
           "burda napıyosunuz"
-
         ],
-        "responses": [
-          "hastane randevu uygulamamız doktorlarla hastaları online ortamda buluşturmak için hizmetinizdedir"
-        ],
-        "id": 9
+        "responses": "Hastane Randevu uygulamamız doktorlar ile hastaları online ortamda buluşturmak için hizmetinizdedir.",
+        "id": 10
       },
       {
         "tag": "randevu_bilgi",
@@ -243,13 +220,9 @@
           "randevu durumum",
           "randevu durum",
           "randevu kontrol"
-
-
         ],
-        "responses": [
-          "uygulamamızda randevularım kısmında güncel randevu bilgilerinize ulaşabilirsiniz."
-        ],
-        "id": 10
+        "responses": "Uygulamamızda randevularım kısmında güncel randevu bilgilerinize ulaşabilirsiniz.",
+        "id": 11
       },
       {
         "tag": "ödeme_bilgi",
@@ -265,10 +238,9 @@
           "ödemeyi nerede yapıcam",
           "ödeme hakkında",
           "ödeme bilgisi"
-
         ],
-        "responses": "istediğiniz uzmanlık alanından dilediğiniz doktoru seçerek randevu oluşturduktan sonra ödemenizi yapabilirsiniz.",
-        "id": 11
+        "responses": "İstediğiniz uzmanlık alanından dilediğiniz doktoru seçerek randevu oluşturduktan sonra ödemenizi yapabilirsiniz.",
+        "id": 12
       },
       {
         "tag": "ödeme_kupon",
@@ -276,32 +248,58 @@
           "merhaba, internetten aldığım indirim kuponu kodunu nasıl kullanabilirim.",
           "Kupon kodu kullanmak istiyorum.",
           "Indirim var mı",
-          "ödeme kuponu kupon"
+          "ödeme kuponu",
+          "indirim",
+          "kupon",
+          "kupon geçerli mi",
+          "kupon var mı",
+          "uygulamada kupon var mı",
+          "kupon kullanıyor musunuz",
+          "indirimli kupon"
         ],
-        "responses": "böyle kullanırsın",
-        "id": 12
+        "responses": "Ödeme kuponunuzu ödeme işlemi sırasında size bildirilecek adımları takip ederek kullanabilirsiniz.",
+        "id": 13
       },
       {
         "tag": "reçete_bilgi",
         "patterns": [
           "reçete yazdırabilir miyim",
-          "reçete verilir mi"
+          "reçete verilir mi",
+          "reçete",
+          "reçete durumu",
+          "reçete bilgi",
+          "reçete bilgisi",
+          "reçete yazdırma",
+          "reçete hakkında",
+          "ilaç yazdırma",
+          "ilaç yazdırabilir miyim"
         ],
-        "responses": [
-          "üzgünüz reçete yazamıyoruz"
-        ],
-        "id": 13
+        "responses": "Üzgünüz, Türkiyedeki yönetmelik gereği reçeteler çevrimiçi olarak yazdırılamamaktadır.",
+        "id": 14
       },
       {
         "tag": "muayene_bilgi",
         "patterns": [
           "muayene nasıl olurum",
-          "muayene kaç dikika sürer"
+          "muayene kaç dakika sürer",
+          "muayene bilgi dakka",
+          "muayane bilgisi dakika",
+          "muayene bilgim",
+          "muayene kaç saat sürebilir",
+          "muayene hakkında zamanı",
+          "muayene nasıl yapılıyor",
+          "muayene nasıl yapılmakta",
+          "muayene ne kadar sürüyor",
+          "muayene durumu",
+          "muayene hakkında bilgi alabilir miyim",
+          "muayene nasıl",
+          "muayene nasıl oluyo",
+          "muayene nasıl gerçekleşiyo",
+          "muayene online olarak nereden yapılmakta",
+          "muayene nereden yapılıyor"
         ],
-        "responses": [
-          "muayene zoom üzerinden olur 20 dakika sürer"
-        ],
-        "id": 14
+        "responses": "Muayeneler Zoom üzerinden yapılır ve yaklaşık olarak 20 dakika kadar sürer.",
+        "id": 15
       },
       {
         "tag": "iletişim",
@@ -309,35 +307,74 @@
           "iletişim bilgileriniz nelerdir",
           "nasıl iletişime geçebilirim",
           "size nasıl ulaşabilirim",
-          "email adresiniz nedir"
+          "email adresiniz nedir",
+          "iletişim",
+          "iletişim bilgisi",
+          "size ulaşmak istiyorum",
+          "iletişim hakkında",
+          "iletişim bilgilerinizi istiyorum",
+          "iletişim bilgilerinisi öğrenmek istiyorum",
+          "telefon numaranız nedir",
+          "tel no",
+          "telefon numarası",
+          "telefon numaranız",
+          "mail adresiniz",
+          "mail",
+          "mailinizi paylaşır mısınız",
+          "mail adresinizi öğrenmek istiyorum",
+          "mail bigi",
+          "telefon"
         ],
-        "responses": [
-          "dilerseniz wp canlı destek hattımızdan dilediğiniz zaman iletişime geçebilirsiniz."
-        ],
-        "id": 15
+        "responses": "Dilerseniz WhatsApp canlı destek hattımızdan dilediğiniz zaman iletişime geçebilirsiniz. İletişim numaramız: 0550 000 0000",
+        "id": 16
       },
       {
         "tag": "sosyal_medya",
         "patterns": [
           "Sosyal medya hesaplarınız nelerdir?",
           "Sosyal medya hesaplarınız var mıdır?",
-          "Hangi sosyal medya hesaplarınız var?"
+          "Hangi sosyal medya hesaplarınız var?",
+          "sosyal medya",
+          "twitter",
+          "instagram",
+          "facebook",
+          "sosyal medyadan takip",
+          "sosyal medya takip",
+          "sosyal medyadan takip edebilir miyim",
+          "sosyal medya hesaplarınız nelerdir",
+          "sosyal medya hesaplarınızı nereden öğrenirim",
+          "sosyal ağ"
         ],
-        "responses": [
-          "bizi menü kısmında bulunan sosyal medya hesaplarımızdan takip edebilirsiniz."
-        ],
-        "id": 16
+        "responses": "Gelişmelerden ve yeni özelliklerden haberdar olabilmek için bizi Facebook, Instagram ve Twitter hesaplarımızdan takip edebilirsiniz. Deneyimlerinizi de sosyal medyadan bizimle paylaşabilirsiniz.",
+        "id": 17
       },
       {
         "tag": "kvkk",
         "patterns": [
           "kişisel verilerim paylaşılır mı",
-          "kişisel verilerim tehlikede mi"
+          "kişisel verilerim tehlikede mi",
+          "kişisel veri",
+          "kişisel veriler",
+          "verilerim korunur mu",
+          "verilerim",
+          "kvkk veri",
+          "bilgilerim",
+          "bilgilerim tehlikede mi",
+          "bilgilerim paylaşılır mı",
+          "verilerim paylaşılır mı",
+          "verilerim kayıtlı mı",
+          "verilerim çalınır mı",
+          "bilgilerim çalınır mı",
+          "verilerim izinsiz kullanılır mı",
+          "verilerime başkalırı görür mü",
+          "verilerime başkaları erişir mi",
+          "bilgilerime başkaları erişir mi",
+          "verilerim güvende mi",
+          "bilgilerim güvende mi",
+          "kvkk"
         ],
-        "responses": [
-          "Kişisel verileriniz koruma altındadır."
-        ],
-        "id": 17
+        "responses": "Kişsel verileriniz 6698 sayılı KVKK kanunu kapsamında koruma altındadır.",
+        "id": 18
       }
     ]
   }
