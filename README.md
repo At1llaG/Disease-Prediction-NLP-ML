@@ -7,7 +7,7 @@ This gives 2 deployment options:
 - Desease
 
 ## Initial Setup:
-This repo currently contains the starter files.
+This repo currently contains
 
 Clone repo and create a virtual environment
 ```
@@ -26,7 +26,7 @@ $ (venv) python
 >>> import nltk
 >>> nltk.download('all')
 ```
-Modify `intents.json` with different intents and responses for your Chatbot
+Modify `intents.json` with
 
 Run
 ```
@@ -38,10 +38,10 @@ the following command to test it in the console.
 $ (venv) python chat.py
 ```
 
-Now for deployment follow my tutorial to implement `app.py` and `app.js`.
+Now for deployment `app.py` and `app.js`.
 
 ## Note
-In the [standalone-frontend](/standalone-frontend) folder.
+In the [standalone](/standalone) folder.
 
 ## Links
 https://stackoverflow.com/questions/55037071/how-to-find-medical-words-from-a-sentence-using-python
