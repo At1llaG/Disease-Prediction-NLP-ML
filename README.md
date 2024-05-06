@@ -1,4 +1,4 @@
-# Chatbot Deployment with Flask and JavaScript
+# Disease Prediction with NLP
 
 In this project we will  [this](https://google.com)  .
 
@@ -20,7 +20,7 @@ Install dependencies
 ```
 $ (venv) pip install Flask torch torchvision nltk
 ```
-Install nltk package
+Install nltk package - REQUIREMENTS.TXT!
 ```
 $ (venv) python
 >>> import nltk
@@ -41,7 +41,7 @@ $ (venv) python chat.py
 Now for deployment follow my tutorial to implement `app.py` and `app.js`.
 
 ## Note
-In the video we implement the first approach using jinja2 templates within our Flask app. Only slight modifications are needed to run the frontend separately. I put the final frontend code for a standalone frontend application in the [standalone-frontend](/standalone-frontend) folder.
+In the [standalone-frontend](/standalone-frontend) folder.
 
 ## Links
 https://stackoverflow.com/questions/55037071/how-to-find-medical-words-from-a-sentence-using-python
